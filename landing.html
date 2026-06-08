@@ -7,7 +7,7 @@
     <title>JOSS LAUNDRY — Bersih, Cepat, Wangi</title>
     <meta name="description"
         content="JOSS Laundry — Platform laundry modern dengan layanan antar-jemput gratis, tracking real-time, dan harga terjangkau.">
-
+    {% load static %}
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
@@ -1128,6 +1128,7 @@
                 transform: translateX(0);
             }
         }
+
     </style>
 </head>
 
@@ -1198,22 +1199,8 @@
     <!-- ── MARQUEE ── -->
     <div class="marquee-strip">
         <div class="marquee-track">
-            <span class="marquee-item"><span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI
-                <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span
-                    class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span
-                    class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span
-                    class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span
-                    class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span
-                    class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span
-                    class="star">★</span> LAUNDRY KILOAN</span>
-            <span class="marquee-item"><span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI
-                <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span
-                    class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span
-                    class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span
-                    class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span
-                    class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span
-                    class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span
-                    class="star">★</span> LAUNDRY KILOAN</span>
+            <span class="marquee-item"><span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN</span>
+            <span class="marquee-item"><span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN <span class="star">★</span> CUCI KERING <span class="star">★</span> SETRIKA RAPI <span class="star">★</span> CUCI EXPRESS <span class="star">★</span> DRY CLEANING <span class="star">★</span> LAUNDRY KILOAN</span>
         </div>
     </div>
 
@@ -1237,8 +1224,7 @@
                 <div class="feature-card fc-3 reveal">
                     <div class="feature-icon">📋</div>
                     <h3>Nota Digital</h3>
-                    <p>Setiap transaksi tercatat rapi secara digital. Cek status cucianmu kapan saja lewat akun
-                        pelanggan.</p>
+                    <p>Setiap transaksi tercatat rapi secara digital. Cek status cucianmu kapan saja lewat akun pelanggan.</p>
                 </div>
                 <div class="feature-card fc-4 reveal">
                     <div class="feature-icon">🧴</div>
@@ -1256,12 +1242,6 @@
                     <p>Cucian tidak bersih? Kami cuci ulang tanpa biaya tambahan. Kepuasan pelanggan adalah prioritas.
                     </p>
                 </div>
-                <div class="feature-card fc-2 reveal">
-                    <div class="feature-icon">📍</div>
-                    <h3>Tracking Real-Time</h3>
-                    <p>Pantau status cucianmu kapan saja langsung dari akun pelanggan — dari proses cuci hingga siap
-                        diambil.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -1272,8 +1252,7 @@
             <div style="text-align:center" class="reveal">
                 <div class="section-eyebrow">Mudah & Cepat</div>
                 <h2 class="section-title">Bagaimana Cara Kerjanya?</h2>
-                <p class="section-desc" style="margin:0 auto">Hanya 4 langkah mudah — tidak perlu pesan online, cukup
-                    datang langsung!
+                <p class="section-desc" style="margin:0 auto">Hanya 4 langkah mudah — tidak perlu pesan online, cukup datang langsung!
                 </p>
             </div>
 
@@ -1550,5 +1529,4 @@
         if (heroStats) heroObserver.observe(heroStats);
     </script>
 </body>
-
 </html>
